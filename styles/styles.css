@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500&family=Open+Sans&display=swap');
-@import'reset.css';
 @import'variables.css';
+@import'reset.css';
 @import'layout.css';
 @import'typography.css';
 @import'header.css';

@@ -4,28 +4,55 @@
   justify-content: space-between;
 }
 
-
 .mobile-nav {
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
 }
 
 .mobile-nav-button {
-    display: flex;
-
+  display: flex;
 }
 
 .mobile-nav-button:focus {
-    outline: none;
+  outline: none;
 }
 
 .mobile-nav-button {
-    font-size: 40px;
-    border: none;
-    color: var(--main-highlight-color);
-    background-color: transparent;
+  font-size: 40px;
+  border: none;
+  color: var(--main-highlight-color);
+  background-color: transparent;
+}
+#mobile-menu-wrapper {
+  background-color: var(--main-font-color);
+  color: black;
+  height: 90vh;
+  top: 4rem;
+  position: fixed;
+  width: 100%;
 }
 .mobile-nav-menu {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: inherit;
+  justify-content: space-evenly;
 }
+
+.menu-items {
+  border-bottom: 2px solid #86c232;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-items a {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--main-bg-color);
+  padding: 10px;
+}
+
+.menu-items a:hover {
+    background-color: var(--main-bg-color);
+    color: var(--main-highlight-color);
+  }
