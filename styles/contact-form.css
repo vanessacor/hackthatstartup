@@ -1,0 +1,152 @@
+.contact-form {
+  position: absolute;
+  left: -2000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-font-color);
+  color: black;
+}
+
+.show-contact-form {
+  position: absolute;
+  left: 0px;
+  top: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-font-color);
+  color: black;
+}
+
+@media (min-width: 780px) {
+  .contact-form {
+    width: 600px;
+  }
+}
+
+.form-title {
+    text-align: center;
+}
+
+.form-title p {
+    font-size: .70rem;
+}
+.form {
+  width: 80%;
+  padding: 40px 5px 5px 5px;
+}
+
+.close-form {
+  float: right;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+@media (min-width: 1224px) {
+  .close-form {
+    font-size: 35px;
+  }
+}
+
+.close-form:hover {
+  transform: scale(1.5) rotate(180deg);
+}
+
+.form fieldset {
+  border: none;
+}
+
+.form-input input {
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 16px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #181712;
+}
+
+@media (min-width: 1224px) {
+  .form-input input {
+    font-size: 20px;
+  }
+}
+
+.form-input {
+  position: relative;
+}
+
+.form-input label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: #757571;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+@media (min-width: 1224px) {
+  .form-input label {
+    font-size: 20px;
+  }
+}
+
+.form-input:focus {
+  border-bottom: 2px solid var(--main-highlight-color);
+}
+
+.form-input:focus ~ label,
+.form-input:valid ~ label {
+  top: -12px;
+  left: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--main-highlight-color);
+}
+
+@media (min-width: 1224px) {
+  .form-input:focus ~ label,
+  .form-input:valid ~ label {
+    font-size: 16px;
+  }
+}
+
+.form-input span {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  padding: 0 5px;
+  font-weight: 600;
+  color: var(--main-error-color);
+  border-radius: 2px;
+}
+
+#empty-name {
+  display: none;
+}
+#empty-email {
+  display: none;
+}
+
+.submit-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  color: var(--main-bg-color);
+  font-size: 1.5rem;
+  border: 3px solid var(--main-highlight-color);
+  background: transparent;
+}
+
+.submit-button:hover {
+    background-color: var(--main-bg-color);
+    border: none;
+    color: var(--main-font-color);
+}
