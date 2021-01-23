@@ -1,0 +1,10 @@
+:root {
+    --main-bg-color: #222629;
+    --main-highlight-color: #86C232;
+    --main-font-color: #f9fdff;
+    --main-error-color: #EB4A1B;
+    --main-secondary-color: #6B6E70;
+
+    --main-title-font: 'Montserrat', sans-serif;
+    --main-text-font: 'Open Sans', sans-serif;
+}
