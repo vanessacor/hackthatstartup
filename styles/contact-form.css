@@ -11,7 +11,7 @@
 
 .show-contact-form {
   position: absolute;
-  left: 0px;
+  left: 1rem;
   top: 35%;
   width: 100%;
   display: flex;
@@ -23,8 +23,10 @@
 }
 
 @media (min-width: 780px) {
-  .contact-form {
+  .show-contact-form {
     width: 600px;
+    margin: 0 auto;
+    left: 35%;
   }
 }
 

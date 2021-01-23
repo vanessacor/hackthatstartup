@@ -8,11 +8,12 @@
   text-transform: uppercase;
 }
 .article-wrapper {
+  display: flex;
+  flex-wrap: wrap;
   padding-top: 80px;
- 
 }
 .article-wrapper > * {
-  margin-bottom: 20px;
+  margin: 0 20px 20px 0;
 }
 
 .newsletter-article {
@@ -24,11 +25,11 @@
 }
 
 .newsletter-article h3 {
-    padding: 10px;
+  padding: 10px;
 }
 
 .newsletter-article p {
-    background-color: var(--main-font-color);
-    color: var(--main-bg-color);
-    padding: 10px;
+  background-color: var(--main-font-color);
+  color: var(--main-bg-color);
+  padding: 10px;
 }

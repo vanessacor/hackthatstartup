@@ -5,11 +5,11 @@
 
 .social-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .social-links a {
     color: var(--main-bg-color);
-    font-size: 1.3rem;
+    font-size: 2rem;
 
 }

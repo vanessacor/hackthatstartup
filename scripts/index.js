@@ -15,14 +15,17 @@ function showMenu() {
   if (isShowingMenu) {
     menu.style.display = "none";
     isShowingMenu = false;
-    return;
-  } else menu.style.display = "block";
-  isShowingMenu = true;
+    document.body.style.overflow = "initial";
+  } else {
+    menu.style.display = "block";
+    isShowingMenu = true;
+    document.body.style.overflow = "hidden";
+  }
 }
 
 function showForm() {
   const form = document.querySelector("#form-display");
-  return form.className = "show-contact-form";
+  return (form.className = "show-contact-form");
 }
 function hideForm() {
   const form = document.querySelector("#form-display");
