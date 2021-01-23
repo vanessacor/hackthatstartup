@@ -1,3 +1,27 @@
 .hero {
+    display: flex;
+    background: url("../Assets/background1.png") no-repeat center center fixed;
+    background-size: auto;
+}  
+
+.hero-container {
+    margin: auto auto;
+}
+
+.hero-container h2 {
+    margin-bottom: 15px;
+}
+
+.hero-container button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    color: var(--main-font-color);
+    font-size: 1.5rem;
+    border: 2px solid var(--main-font-color);
+    background: transparent;
+}
+
+.form-wrapper {
     display: none;
 }

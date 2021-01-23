@@ -24,7 +24,7 @@
   background-color: transparent;
 }
 .mobile-menu {
-    display: none;
+  display: none;
   background-color: var(--main-font-color);
   color: black;
   height: 93vh;
@@ -54,6 +54,6 @@
 }
 
 .menu-items a:hover {
-    background-color: var(--main-bg-color);
-    color: var(--main-highlight-color);
+  background-color: var(--main-bg-color);
+  color: var(--main-highlight-color);
 }
