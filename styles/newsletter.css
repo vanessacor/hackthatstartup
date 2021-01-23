@@ -1,3 +1,34 @@
 .newsletter {
-    display: none;
+  padding-top: 80px;
+}
+
+.newsletter h2 {
+  font-family: var(--main-title-font);
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.article-wrapper {
+  padding-top: 80px;
+ 
+}
+.article-wrapper > * {
+  margin-bottom: 20px;
+}
+
+.newsletter-article {
+  padding-top: 14px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid var(--main-highlight-color);
+  overflow-y: hidden;
+}
+
+.newsletter-article h3 {
+    padding: 10px;
+}
+
+.newsletter-article p {
+    background-color: var(--main-font-color);
+    color: var(--main-bg-color);
+    padding: 10px;
 }
