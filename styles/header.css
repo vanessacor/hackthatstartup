@@ -23,20 +23,21 @@
   color: var(--main-highlight-color);
   background-color: transparent;
 }
-#mobile-menu-wrapper {
+.mobile-menu {
+    display: none;
   background-color: var(--main-font-color);
   color: black;
-  height: 90vh;
+  height: 93vh;
   top: 4rem;
   position: fixed;
   width: 100%;
 }
-.mobile-nav-menu {
+.mobile-menu-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: inherit;
   justify-content: space-evenly;
+  margin: 50% 0;
 }
 
 .menu-items {
@@ -55,4 +56,4 @@
 .menu-items a:hover {
     background-color: var(--main-bg-color);
     color: var(--main-highlight-color);
-  }
+}
