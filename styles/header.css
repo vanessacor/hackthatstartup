@@ -1,0 +1,31 @@
+.header {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.mobile-nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.mobile-nav-button {
+    display: flex;
+
+}
+
+.mobile-nav-button:focus {
+    outline: none;
+}
+
+.mobile-nav-button {
+    font-size: 40px;
+    border: none;
+    color: var(--main-highlight-color);
+    background-color: transparent;
+}
+.mobile-nav-menu {
+  display: none;
+}

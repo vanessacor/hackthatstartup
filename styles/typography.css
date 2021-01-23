@@ -8,5 +8,6 @@ body {
     font-family: var(--main-title-font);
     font-weight: 300;
     color: var(--main-highlight-color);
+    text-transform: uppercase;
   }
   
